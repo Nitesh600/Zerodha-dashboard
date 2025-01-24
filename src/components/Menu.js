@@ -88,6 +88,16 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+                <li>
+            <Link
+              style={{ textDecoration: "none" }}
+              to="https://trading-app-pied.vercel.app/"
+            >
+              <p className={selectedMenu === 0 ? activeMenuClass : menuClass}>
+                Logout
+              </p>
+            </Link>
+          </li>
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
